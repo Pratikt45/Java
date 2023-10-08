@@ -1,0 +1,24 @@
+class Div3 
+{
+	double num1, num2 ,ans;
+	void getdata(double int1, double int2){
+		num1 = int1;
+		num2 = int2;
+	}
+	void calculate(){
+		ans = num1/num2;
+	}
+	void display(){
+		        System.out.println("\n\n Divion of Two Number is  : "+ ans);
+	}
+}
+	class Main_Div
+	{
+	public static void main(String[] args) 
+	{
+		Div3 d3 = new Div3();
+		d3.getdata(120, 12);
+		d3.calculate();
+		d3.display();
+	}
+}
